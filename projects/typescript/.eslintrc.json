@@ -1,0 +1,14 @@
+{
+	"root": true,
+	"extends": ["plugin:@mozisan/preset"],
+	"overrides": [
+		{
+			"files": ["src/structure/node/**"],
+			"extends": ["plugin:@mozisan/structure-node"]
+		},
+		{
+			"files": ["src/type/commonjs/**"],
+			"extends": ["plugin:@mozisan/type-commonjs"]
+		}
+	]
+}

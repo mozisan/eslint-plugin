@@ -1,0 +1,26 @@
+{
+	"extensions": {
+		"recommendations": ["dbaeumer.vscode-eslint", "editorconfig.editorconfig", "esbenp.prettier-vscode"]
+	},
+	"folders": [
+		{ "path": "." },
+		{ "path": "packages/eslint-plugin", "name": "@mozisan/eslint-plugin" },
+		{ "path": "projects/next", "name": "eslint-project-next" },
+		{ "path": "projects/typescript", "name": "eslint-project-typescript" }
+	],
+	"settings": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"eslint.enable": true,
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true,
+		"files.trimTrailingWhitespace": true,
+		"javascript.format.enable": false,
+		"prettier.enable": true,
+		"typescript.format.enable": false,
+		"typescript.tsdk": "eslint-plugin/node_modules/typescript/lib"
+	}
+}

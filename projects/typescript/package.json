@@ -1,0 +1,18 @@
+{
+	"name": "eslint-project-typescript",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix .",
+		"typecheck": "tsc --noEmit"
+	},
+	"prettier": "@mozisan/prettier-config",
+	"devDependencies": {
+		"@mozisan/eslint-plugin": "workspace:*",
+		"@types/node": "18.17.0",
+		"eslint": "^8.45.0"
+	}
+}

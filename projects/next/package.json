@@ -1,0 +1,24 @@
+{
+	"name": "eslint-project-next",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix .",
+		"typecheck": "tsc --noEmit"
+	},
+	"prettier": "@mozisan/prettier-config",
+	"dependencies": {
+		"next": "^13.4.12",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@mozisan/eslint-plugin": "workspace:*",
+		"@types/node": "18.17.0",
+		"@types/react": "^18.2.17",
+		"eslint": "^8.45.0"
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"name": "@mozisan/eslint-plugin",
+	"version": "0.0.0",
+	"description": "ESLint plugin",
+	"keywords": [
+		"eslint",
+		"typescript"
+	],
+	"homepage": "https://github.com/mozisan/eslint-plugin/tree/main/packages/eslint-plugin",
+	"bugs": {
+		"url": "https://github.com/mozisan/eslint-plugin/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mozisan/eslint-plugin.git",
+		"directory": "packages/eslint-plugin"
+	},
+	"license": "MIT",
+	"author": "mozisan <mozisan@users.noreply.github.com>",
+	"exports": {
+		".": "./dist/plugin.js",
+		"./package.json": "./package.json"
+	},
+	"main": "./dist/plugin.js",
+	"files": [
+		"dist",
+		"package.json",
+		"README.md"
+	],
+	"scripts": {
+		"build": "tsc",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix .",
+		"typecheck": "tsc --noEmit"
+	},
+	"prettier": "@mozisan/prettier-config",
+	"dependencies": {
+		"@next/eslint-plugin-next": "^13.4.12",
+		"@typescript-eslint/eslint-plugin": "^6.2.0",
+		"@typescript-eslint/parser": "^6.2.0",
+		"@typescript-eslint/type-utils": "^6.2.0",
+		"@typescript-eslint/utils": "^6.2.0",
+		"eslint-config-prettier": "^8.9.0",
+		"eslint-import-resolver-typescript": "^3.5.5",
+		"eslint-plugin-check-file": "^2.5.0",
+		"eslint-plugin-functional": "^5.0.8",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-import-access": "^2.0.0",
+		"eslint-plugin-no-relative-import-paths": "^1.5.2",
+		"eslint-plugin-react": "^7.33.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-perf": "^3.3.1",
+		"eslint-plugin-simple-import-sort": "^10.0.0",
+		"eslint-plugin-tailwindcss": "^3.13.0",
+		"eslint-plugin-unicorn": "^48.0.1",
+		"eslint-plugin-unused-imports": "^3.0.0"
+	},
+	"devDependencies": {
+		"@mozisan/prettier-config": "^2.3.0",
+		"eslint": "^8.45.0",
+		"tailwindcss": "^3.3.3",
+		"typescript": "^5.1.6"
+	},
+	"peerDependencies": {
+		"eslint": "^8",
+		"tailwindcss": "^3"
+	},
+	"peerDependenciesMeta": {
+		"tailwindcss": {
+			"optional": true
+		}
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

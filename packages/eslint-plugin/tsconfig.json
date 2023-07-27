@@ -1,0 +1,10 @@
+{
+	"extends": ["@tsconfig/strictest/tsconfig.json", "@tsconfig/node18/tsconfig.json"],
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "CommonJS",
+		"moduleResolution": "Node16",
+		"outDir": "dist"
+	},
+	"include": ["src"]
+}
