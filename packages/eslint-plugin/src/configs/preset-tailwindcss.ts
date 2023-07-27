@@ -10,6 +10,7 @@ export default {
 	overrides: [
 		{
 			files: ["*.tsx"],
+			excludedFiles: ["*.d.?(c|m)ts"],
 			plugins: ["tailwindcss"],
 			rules: {
 				"tailwindcss/enforces-negative-arbitrary-values": "error",

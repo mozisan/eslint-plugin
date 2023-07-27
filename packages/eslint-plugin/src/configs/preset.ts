@@ -66,7 +66,8 @@ export default {
 	},
 	overrides: [
 		{
-			files: ["*.?(m)ts?(x)"],
+			files: ["*.?(c|m)ts?(x)"],
+			excludedFiles: ["*.d.?(c|m)ts"],
 			extends: [
 				"plugin:@typescript-eslint/strict-type-checked",
 				"plugin:@typescript-eslint/stylistic-type-checked",
@@ -156,12 +157,12 @@ export default {
 		},
 		{
 			files: ["*.config.?(m)ts"],
+			excludedFiles: ["*.d.?(c|m)ts"],
 			rules: {
 				// eslint-plugin-import
 				"import/no-default-export": "off",
 			},
 		},
 	],
-	ignorePatterns: ["**/*.d.?(m)ts"],
 	reportUnusedDisableDirectives: true,
 } satisfies TSESLint.Linter.Config;

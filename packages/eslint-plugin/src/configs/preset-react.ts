@@ -10,6 +10,7 @@ export default {
 	overrides: [
 		{
 			files: ["*.tsx"],
+			excludedFiles: ["*.d.?(c|m)ts"],
 			extends: [
 				"plugin:import/react",
 				"plugin:react/recommended",
@@ -31,7 +32,8 @@ export default {
 			},
 		},
 		{
-			files: ["*.?(m)ts?(x)"],
+			files: ["*.?(c|m)ts?(x)"],
+			excludedFiles: ["*.d.?(c|m)ts"],
 			plugins: ["react-hooks"],
 			rules: {
 				// eslint-plugin-react-hooks

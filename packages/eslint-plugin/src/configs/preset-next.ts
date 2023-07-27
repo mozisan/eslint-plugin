@@ -10,6 +10,7 @@ export default {
 	overrides: [
 		{
 			files: ["app/**/*.ts?(x)", "src/app/**/*.ts?(x)"],
+			excludedFiles: ["*.d.?(c|m)ts"],
 			rules: {
 				// eslint-plugin-check-file
 				"check-file/folder-naming-convention": ["error", { "**": "NEXT_JS_APP_ROUTER_CASE" }],

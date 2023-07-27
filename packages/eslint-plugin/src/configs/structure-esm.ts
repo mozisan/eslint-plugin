@@ -3,7 +3,8 @@ import type { TSESLint } from "@typescript-eslint/utils";
 export default {
 	overrides: [
 		{
-			files: ["*.?(m)ts?(x)"],
+			files: ["*.?(c|m)ts?(x)"],
+			excludedFiles: ["*.d.?(c|m)ts"],
 			rules: {
 				// eslint-plugin-check-file
 				"check-file/filename-naming-convention": ["error", { "**": "KEBAB_CASE" }],
@@ -16,7 +17,8 @@ export default {
 			},
 		},
 		{
-			files: ["*.config.?(m)ts"],
+			files: ["*.config.?(c|m)ts"],
+			excludedFiles: ["*.d.?(c|m)ts"],
 			rules: {
 				// eslint-plugin-check-file
 				"check-file/filename-naming-convention": "off",
