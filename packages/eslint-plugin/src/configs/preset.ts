@@ -137,7 +137,6 @@ export default {
 				"@typescript-eslint/no-unused-vars": "off",
 				"@typescript-eslint/no-useless-empty-export": "error",
 				"@typescript-eslint/prefer-readonly": "error",
-				"@typescript-eslint/prefer-readonly-parameter-types": "error",
 				"@typescript-eslint/restrict-template-expressions": ["error", { allowNumber: true }],
 				"@typescript-eslint/return-await": ["error", "always"],
 				"@typescript-eslint/strict-boolean-expressions": [
