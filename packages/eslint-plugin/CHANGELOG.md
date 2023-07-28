@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@1.0.1...@mozisan/eslint-plugin@1.0.2) (2023-07-28)
+
+### Bug Fixes
+
+* **eslint-plugin:** improve inconvenience with react hooks ([8268051](https://github.com/mozisan/eslint-plugin/commit/8268051cd1375f34bf18eed5d93096d52f20cc33))
+
 ## [1.0.1](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@1.0.0...@mozisan/eslint-plugin@1.0.1) (2023-07-27)
 
 ### Bug Fixes
