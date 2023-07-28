@@ -146,7 +146,7 @@ export default {
 				],
 				"@typescript-eslint/switch-exhaustiveness-check": "error",
 				// eslint-plugin-functional
-				"functional/immutable-data": ["error", { ignorePattern: "Ref\\.[^\\.]+$" }],
+				"functional/immutable-data": "error",
 				"functional/prefer-property-signatures": "error",
 				"functional/prefer-readonly-type": "error",
 				// eslint-plugin-import

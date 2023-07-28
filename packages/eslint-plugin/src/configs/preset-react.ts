@@ -36,6 +36,8 @@ export default {
 			excludedFiles: ["*.d.?(c|m)ts"],
 			plugins: ["react-hooks"],
 			rules: {
+				// eslint-plugin-functional
+				"functional/immutable-data": ["error", { ignoreAccessorPattern: ["ref.current", "*Ref.current", "router.**"] }],
 				// eslint-plugin-react-hooks
 				"react-hooks/rules-of-hooks": "error",
 				"react-hooks/exhaustive-deps": "error",

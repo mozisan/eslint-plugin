@@ -1,7 +1,6 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
 export default {
-	extends: ["plugin:@mozisan/preset-react"],
 	settings: {
 		tailwindcss: {
 			callees: ["classnames", "clsx", "cn", "ctl", "cva", "twJoin", "twMerge", "tv"],
