@@ -1,14 +1,17 @@
 {
 	"root": true,
-	"extends": ["plugin:@mozisan/preset"],
 	"overrides": [
 		{
-			"files": ["src/structure/node/**"],
-			"extends": ["plugin:@mozisan/structure-node"]
+			"files": ["src/cjs/**"],
+			"extends": ["plugin:@mozisan/cjs"]
 		},
 		{
-			"files": ["src/type/commonjs/**"],
-			"extends": ["plugin:@mozisan/type-commonjs"]
+			"files": ["src/cjs-modern/**"],
+			"extends": ["plugin:@mozisan/cjs-modern"]
+		},
+		{
+			"files": ["src/esm/**"],
+			"extends": ["plugin:@mozisan/esm"]
 		}
 	]
 }
