@@ -1,4 +1,4 @@
 {
 	"root": true,
-	"extends": ["plugin:@mozisan/preset-next"]
+	"extends": ["plugin:@mozisan/cjs-modern", "plugin:@mozisan/+next"]
 }
