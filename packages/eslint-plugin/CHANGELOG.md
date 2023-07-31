@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@1.0.2...@mozisan/eslint-plugin@2.0.0) (2023-07-31)
+
+### Code Refactoring
+
+* **eslint-plugin:** reorganize presets ([efba059](https://github.com/mozisan/eslint-plugin/commit/efba059b21e656f7fe795c9b18acc672c87a43c7))
+
+### BREAKING CHANGES
+
+* **eslint-plugin:** preset is renamed entirely
+
 ## [1.0.2](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@1.0.1...@mozisan/eslint-plugin@1.0.2) (2023-07-28)
 
 ### Bug Fixes
