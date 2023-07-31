@@ -1,6 +1,6 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-export default {
+export = {
 	settings: {
 		tailwindcss: {
 			callees: ["classnames", "clsx", "cn", "ctl", "cva", "twJoin", "twMerge", "tv"],
@@ -8,7 +8,7 @@ export default {
 	},
 	overrides: [
 		{
-			files: ["*.tsx"],
+			files: ["*.?(c|m)ts?(x)"],
 			excludedFiles: ["*.d.?(c|m)ts"],
 			plugins: ["tailwindcss"],
 			rules: {

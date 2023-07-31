@@ -1,5 +1,5 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-import { configs } from "./configs";
+import configs from "./configs";
 
 export = { configs } satisfies TSESLint.Linter.Plugin;

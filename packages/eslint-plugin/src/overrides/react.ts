@@ -1,7 +1,6 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-export default {
-	extends: ["plugin:@mozisan/preset"],
+export = {
 	settings: {
 		react: {
 			version: "detect",

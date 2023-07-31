@@ -1,6 +1,7 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-export default {
+export = {
+	extends: [require.resolve("./bases/base"), require.resolve("./bases/classic")],
 	overrides: [
 		{
 			files: ["*.?(c)js"],

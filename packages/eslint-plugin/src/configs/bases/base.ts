@@ -1,14 +1,7 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-export default {
-	extends: [
-		"eslint:recommended",
-		"plugin:import/recommended",
-		"plugin:unicorn/recommended",
-		"plugin:@mozisan/structure-esm",
-		"plugin:@mozisan/type-module",
-		"prettier",
-	],
+export = {
+	extends: ["eslint:recommended", "plugin:import/recommended", "plugin:unicorn/recommended", "prettier"],
 	plugins: ["simple-import-sort", "unused-imports"],
 	rules: {
 		// eslint

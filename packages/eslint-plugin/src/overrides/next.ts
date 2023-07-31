@@ -1,16 +1,11 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-export default {
-	extends: [
-		"plugin:@next/next/core-web-vitals",
-		"plugin:@mozisan/preset-react",
-		"plugin:@mozisan/type-commonjs",
-		"prettier",
-	],
+export = {
+	extends: ["plugin:@next/next/core-web-vitals", "plugin:@mozisan/+react", "prettier"],
 	overrides: [
 		{
 			files: ["app/**/*.ts?(x)", "src/app/**/*.ts?(x)"],
-			excludedFiles: ["*.d.?(c|m)ts"],
+			excludedFiles: ["*.d.?(c|m)ts", ".next/**"],
 			rules: {
 				// eslint-plugin-check-file
 				"check-file/folder-naming-convention": ["error", { "**": "NEXT_JS_APP_ROUTER_CASE" }],

@@ -1,9 +1,10 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-export default {
+export = {
+	extends: [require.resolve("./bases/base"), require.resolve("./bases/modern")],
 	overrides: [
 		{
-			files: ["*.cjs"],
+			files: ["*.?(c)js"],
 			parserOptions: {
 				ecmaVersion: "latest",
 				sourceType: "script",
@@ -12,14 +13,12 @@ export default {
 				node: true,
 			},
 			rules: {
-				// eslint-plugin-import
-				"import/no-import-module-exports": "error",
 				// eslint-plugin-unicorn
 				"unicorn/prefer-module": "off",
 			},
 		},
 		{
-			files: ["*.?(m)js"],
+			files: ["*.mjs"],
 			parserOptions: {
 				ecmaVersion: "latest",
 				sourceType: "module",
