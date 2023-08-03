@@ -2,4 +2,4 @@
 
 pnpm --recursive run --if-present build
 pnpm --recursive run --if-present lint
-pnpm exec lerna publish
+pnpm exec lerna publish from-package
