@@ -1,2 +1,2 @@
-/* eslint-disable check-file/filename-naming-convention */
+/* eslint-disable unicorn/filename-case */
 export {};
