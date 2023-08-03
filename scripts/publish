@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 
 pnpm --recursive run --if-present build
+pnpm --recursive run --if-present lint
 pnpm exec lerna publish
