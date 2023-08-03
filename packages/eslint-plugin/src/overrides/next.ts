@@ -12,6 +12,8 @@ export = {
 				"check-file/filename-naming-convention": "off",
 				// eslint-plugin-import
 				"import/no-default-export": "off",
+				// eslint-plugin-unicorn
+				"unicorn/filename-case": "off",
 			},
 		},
 	],
