@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.0.0...@mozisan/eslint-plugin@2.1.0) (2023-08-03)
+
+### Features
+
+* **eslint-plugin:** allow middle extension ([c796bd9](https://github.com/mozisan/eslint-plugin/commit/c796bd95466a9669d108566a24ab0df4b141f5b0))
+
 # [2.0.0](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@1.0.2...@mozisan/eslint-plugin@2.0.0) (2023-07-31)
 
 ### Code Refactoring
