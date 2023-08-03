@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.1.1...@mozisan/eslint-plugin@2.2.0) (2023-08-03)
+
+### Features
+
+* **eslint-plugin:** add esm-classic config ([9823829](https://github.com/mozisan/eslint-plugin/commit/98238294d8dc8f0a17c6877e4ffe304c7a8416d7))
+
 ## [2.1.1](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.1.0...@mozisan/eslint-plugin@2.1.1) (2023-08-03)
 
 **Note:** Version bump only for package @mozisan/eslint-plugin
