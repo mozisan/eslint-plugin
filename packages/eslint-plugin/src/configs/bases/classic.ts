@@ -11,6 +11,8 @@ export = {
 				"check-file/folder-naming-convention": ["error", { "**": "SNAKE_CASE" }],
 				// eslint-plugin-import-access
 				"import-access/jsdoc": "error",
+				// eslint-plugin-unicorn
+				"unicorn/filename-case": "off",
 			},
 		},
 		{

@@ -8,6 +8,7 @@ export = {
 			rules: {
 				// eslint-plugin-check-file
 				"check-file/folder-naming-convention": ["error", { "**": "KEBAB_CASE" }],
+				"check-file/filename-naming-convention": "off",
 				// eslint-plugin-import-access
 				"import-access/jsdoc": [
 					"error",
