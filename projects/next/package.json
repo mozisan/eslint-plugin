@@ -11,14 +11,14 @@
 	},
 	"prettier": "@mozisan/prettier-config",
 	"dependencies": {
-		"next": "^13.4.12",
+		"next": "^13.4.19",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
 		"@mozisan/eslint-plugin": "workspace:*",
 		"@types/node": "18.17.0",
-		"@types/react": "^18.2.18",
-		"eslint": "^8.46.0"
+		"@types/react": "^18.2.21",
+		"eslint": "^8.47.0"
 	}
 }

@@ -62,7 +62,7 @@
 	"devDependencies": {
 		"@mozisan/prettier-config": "^2.3.0",
 		"@types/node": "18.17.0",
-		"eslint": "^8.46.0",
+		"eslint": "^8.47.0",
 		"rimraf": "^5.0.1",
 		"tailwindcss": "^3.3.3",
 		"typescript": "^5.1.6"
