@@ -27,7 +27,7 @@ export = {
 		"import/no-anonymous-default-export": ["error", { allowArray: true, allowObject: true }],
 		"import/no-duplicates": "error",
 		"import/no-unresolved": "off",
-		"import/no-useless-path-segments": ["error", { noUselessIndex: true }],
+		"import/no-useless-path-segments": "error",
 		// eslint-plugin-simple-import-sort
 		"simple-import-sort/exports": "error",
 		"simple-import-sort/imports": [

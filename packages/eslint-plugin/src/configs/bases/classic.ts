@@ -1,6 +1,10 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
 export = {
+	rules: {
+		// eslint-plugin-import
+		"import/no-useless-path-segments": ["error", { noUselessIndex: true }],
+	},
 	overrides: [
 		{
 			files: ["*.?(c|m)ts?(x)"],
