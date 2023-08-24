@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.2](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.1...@mozisan/eslint-plugin@2.2.2) (2023-08-24)
+
+### Bug Fixes
+
+* **eslint-plugin:** fix import path normalization for esm ([eacc217](https://github.com/mozisan/eslint-plugin/commit/eacc2174d2a9a22efd5c152ea3b619bf41b8d085))
+
 ## [2.2.1](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.0...@mozisan/eslint-plugin@2.2.1) (2023-08-06)
 
 ### Bug Fixes
