@@ -1,6 +1,6 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-export = {
+export default {
 	rules: {
 		// eslint-plugin-import
 		"import/no-useless-path-segments": ["error", { noUselessIndex: true }],

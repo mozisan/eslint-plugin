@@ -1,6 +1,6 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-export = {
+export default {
 	overrides: [
 		{
 			files: ["*.?(c|m)ts?(x)"],

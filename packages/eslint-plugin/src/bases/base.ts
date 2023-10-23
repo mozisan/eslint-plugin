@@ -1,6 +1,6 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-export = {
+export default {
 	extends: ["eslint:recommended", "plugin:import/recommended", "plugin:unicorn/recommended", "prettier"],
 	plugins: ["simple-import-sort", "unused-imports"],
 	rules: {

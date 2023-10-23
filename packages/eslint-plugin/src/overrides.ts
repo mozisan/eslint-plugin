@@ -4,7 +4,7 @@ import next from "./overrides/next";
 import react from "./overrides/react";
 import tailwindcss from "./overrides/tailwindcss";
 
-export = {
+export default {
 	"+next": next,
 	"+react": react,
 	"+tailwindcss": tailwindcss,

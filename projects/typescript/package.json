@@ -5,8 +5,8 @@
 	"scripts": {
 		"format": "prettier --write .",
 		"format:check": "prettier --check .",
-		"lint": "eslint .",
-		"lint:fix": "eslint --fix .",
+		"lint": "eslint 'src/**'",
+		"lint:fix": "eslint --fix 'src/**'",
 		"typecheck": "tsc --noEmit"
 	},
 	"prettier": "@mozisan/prettier-config",

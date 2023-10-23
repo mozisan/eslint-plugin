@@ -1,6 +1,6 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-export = {
+export default {
 	extends: ["plugin:@next/next/core-web-vitals", "plugin:@mozisan/+react", "prettier"],
 	overrides: [
 		{

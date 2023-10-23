@@ -1,3 +1,3 @@
-import {} from "#pkg/structure/esm/import/fixture";
+import {} from "#pkg/cjs-modern/import/fixture";
 
 import {} from "./fixture";

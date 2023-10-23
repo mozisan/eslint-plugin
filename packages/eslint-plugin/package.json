@@ -28,9 +28,9 @@
 		"README.md"
 	],
 	"scripts": {
-		"build": "run-s clean compile",
+		"build": "run-s clean bundle",
+		"bundle": "pkgroll",
 		"clean": "rimraf dist",
-		"compile": "tsc",
 		"format": "prettier --write .",
 		"format:check": "prettier --check .",
 		"lint": "eslint .",

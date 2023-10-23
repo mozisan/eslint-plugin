@@ -1,3 +1,3 @@
-import {} from "#pkg/structure/esm/import/fixture";
+import {} from "#pkg/esm/import/fixture";
 
 import {} from "./fixture";

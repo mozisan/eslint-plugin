@@ -1,15 +1,11 @@
 import type { TSESLint } from "@typescript-eslint/utils";
 
-import cjs from "./configs/cjs";
-import cjsModern from "./configs/cjs-modern";
-import esm from "./configs/esm";
-import esmClassic from "./configs/esm-classic";
+import bases from "./bases";
 import overrides from "./overrides";
+import presets from "./presets";
 
-export = {
-	cjs,
-	"cjs-modern": cjsModern,
-	esm,
-	"esm-classic": esmClassic,
+export default {
+	...bases,
+	...presets,
 	...overrides,
 } satisfies Record<string, TSESLint.Linter.Config>;
