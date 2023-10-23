@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.5](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.4...@mozisan/eslint-plugin@2.2.5) (2023-10-23)
+
+### Bug Fixes
+
+* **eslint-plugin:** suppress errors on vitest config files ([09d6acf](https://github.com/mozisan/eslint-plugin/commit/09d6acf6363facab17da541a4487e166b84039f3))
+
 ## [2.2.4](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.3...@mozisan/eslint-plugin@2.2.4) (2023-09-19)
 
 ### Bug Fixes
