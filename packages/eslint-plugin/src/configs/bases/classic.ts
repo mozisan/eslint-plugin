@@ -20,7 +20,7 @@ export = {
 			},
 		},
 		{
-			files: ["*.config.?(c|m)ts"],
+			files: ["*.config.?(c|m)ts", "vitest.*.?(c|m)ts"],
 			excludedFiles: ["*.d.?(c|m)ts"],
 			rules: {
 				// eslint-plugin-check-file

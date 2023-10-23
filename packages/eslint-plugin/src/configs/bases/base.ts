@@ -149,7 +149,7 @@ export = {
 			},
 		},
 		{
-			files: ["*.config.?(m)ts"],
+			files: ["*.config.?(m)ts", "vitest.*.?(m)ts"],
 			excludedFiles: ["*.d.?(c|m)ts"],
 			rules: {
 				// eslint-plugin-import
