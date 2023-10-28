@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.6](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.5...@mozisan/eslint-plugin@2.2.6) (2023-10-28)
+
+### Bug Fixes
+
+* **eslint-plugin:** allow constant loop conditions ([b8d68c4](https://github.com/mozisan/eslint-plugin/commit/b8d68c4d59249797304c738cccf984de2bc2fc20))
+
 ## [2.2.5](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.4...@mozisan/eslint-plugin@2.2.5) (2023-10-23)
 
 ### Bug Fixes
