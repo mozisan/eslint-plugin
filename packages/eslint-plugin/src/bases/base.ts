@@ -126,6 +126,7 @@ export default {
 				"@typescript-eslint/no-import-type-side-effects": "error",
 				"no-shadow": "off",
 				"@typescript-eslint/no-shadow": ["error", { allow: ["_"] }],
+				"@typescript-eslint/no-unnecessary-condition": ["error", { allowConstantLoopConditions: true }],
 				"@typescript-eslint/no-unnecessary-qualifier": "error",
 				"@typescript-eslint/no-unused-vars": "off",
 				"@typescript-eslint/no-useless-empty-export": "error",
