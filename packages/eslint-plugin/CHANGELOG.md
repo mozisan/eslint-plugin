@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.7](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.6...@mozisan/eslint-plugin@2.2.7) (2023-12-14)
+
+### Bug Fixes
+
+* **eslint-plugin:** avoid unintended error with @typescript-eslint/naming-convention ([a09931d](https://github.com/mozisan/eslint-plugin/commit/a09931dcc75324a36b908da5cb4c1fcae9a5cf77))
+
 ## [2.2.6](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.5...@mozisan/eslint-plugin@2.2.6) (2023-10-28)
 
 ### Bug Fixes
