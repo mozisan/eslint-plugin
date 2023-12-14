@@ -87,7 +87,7 @@ export default {
 					{
 						selector: "default",
 						format: ["camelCase", "PascalCase", "UPPER_CASE"],
-						leadingUnderscore: "allow",
+						leadingUnderscore: "forbid",
 						trailingUnderscore: "forbid",
 					},
 					{
@@ -97,29 +97,22 @@ export default {
 						trailingUnderscore: "forbid",
 					},
 					{
-						selector: ["objectLiteralProperty", "typeProperty"],
-						format: ["camelCase", "PascalCase", "UPPER_CASE"],
-						leadingUnderscore: "allowDouble",
-						trailingUnderscore: "forbid",
-					},
-					{
 						selector: "typeLike",
 						format: ["PascalCase", "UPPER_CASE"],
 						leadingUnderscore: "forbid",
 						trailingUnderscore: "forbid",
 					},
 					{
-						selector: [
-							"classProperty",
-							"objectLiteralProperty",
-							"typeProperty",
-							"classMethod",
-							"objectLiteralMethod",
-							"typeMethod",
-							"accessor",
-							"enumMember",
-						],
+						selector: "default",
 						modifiers: ["requiresQuotes"],
+						format: null,
+					},
+					{
+						selector: "property",
+						filter: {
+							regex: "^(_tag|__typename)$",
+							match: true,
+						},
 						format: null,
 					},
 				],
