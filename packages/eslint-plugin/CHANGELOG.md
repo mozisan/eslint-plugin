@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.8](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.7...@mozisan/eslint-plugin@2.2.8) (2023-12-19)
+
+### Bug Fixes
+
+* **eslint-plugin:** allow leading underscore in variable name ([1cde11b](https://github.com/mozisan/eslint-plugin/commit/1cde11b7b0ce7d6b4c878df2cc49a3e316135386))
+
 ## [2.2.7](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.6...@mozisan/eslint-plugin@2.2.7) (2023-12-14)
 
 ### Bug Fixes
