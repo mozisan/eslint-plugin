@@ -91,7 +91,7 @@ export default {
 						trailingUnderscore: "forbid",
 					},
 					{
-						selector: "parameter",
+						selector: ["parameter", "variable"],
 						format: ["camelCase", "PascalCase", "UPPER_CASE"],
 						leadingUnderscore: "allow",
 						trailingUnderscore: "forbid",
