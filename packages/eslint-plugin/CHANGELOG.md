@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.9](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.8...@mozisan/eslint-plugin@2.2.9) (2024-01-06)
+
+**Note:** Version bump only for package @mozisan/eslint-plugin
+
 ## [2.2.8](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.7...@mozisan/eslint-plugin@2.2.8) (2023-12-19)
 
 ### Bug Fixes
