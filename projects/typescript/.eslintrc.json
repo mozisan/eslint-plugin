@@ -1,5 +1,6 @@
 {
 	"root": true,
+	"extends": ["plugin:@mozisan/esm"],
 	"overrides": [
 		{
 			"files": ["src/cjs/**"],
@@ -8,10 +9,6 @@
 		{
 			"files": ["src/cjs-modern/**"],
 			"extends": ["plugin:@mozisan/cjs-modern"]
-		},
-		{
-			"files": ["src/esm/**"],
-			"extends": ["plugin:@mozisan/esm"]
 		}
 	]
 }
