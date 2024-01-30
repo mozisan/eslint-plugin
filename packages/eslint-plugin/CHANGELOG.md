@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.9...@mozisan/eslint-plugin@2.3.0) (2024-01-30)
+
+### Bug Fixes
+
+* **eslint-plugin:** fix file matching patterns ([2851a64](https://github.com/mozisan/eslint-plugin/commit/2851a6488d074aa5871a933c698b0072dc1d959a))
+
+### Features
+
+* **eslint-plugin:** use eslint-plugin-perfectionist instead of eslint-plugin-simple-import-sort ([e4087ec](https://github.com/mozisan/eslint-plugin/commit/e4087ec81e33768293482f8f55e9897ca91fff62))
+
 ## [2.2.9](https://github.com/mozisan/eslint-plugin/compare/@mozisan/eslint-plugin@2.2.8...@mozisan/eslint-plugin@2.2.9) (2024-01-06)
 
 **Note:** Version bump only for package @mozisan/eslint-plugin
