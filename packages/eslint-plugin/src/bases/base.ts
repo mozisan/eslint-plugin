@@ -2,7 +2,7 @@ import type { TSESLint } from "@typescript-eslint/utils";
 
 export default {
 	extends: ["eslint:recommended", "plugin:import/recommended", "plugin:unicorn/recommended", "prettier"],
-	plugins: ["simple-import-sort", "unused-imports"],
+	plugins: ["perfectionist", "unused-imports"],
 	rules: {
 		// eslint
 		eqeqeq: ["error", "always", { null: "never" }],
@@ -28,20 +28,18 @@ export default {
 		"import/no-duplicates": "error",
 		"import/no-unresolved": "off",
 		"import/no-useless-path-segments": "error",
-		// eslint-plugin-simple-import-sort
-		"simple-import-sort/exports": "error",
-		"simple-import-sort/imports": [
+		// eslint-plugin-perfectionist
+		"perfectionist/sort-exports": ["error", { type: "natural" }],
+		"perfectionist/sort-imports": [
 			"error",
 			{
-				groups: [
-					["^\\u0000"], // Side effect imports
-					["^node:"], // Built-in packages
-					["^[^#~]@?\\w"], // Third party packages
-					["^[#~]"], // Internal imports
-					["^\\.\\.(?!/?$)", "^\\.\\./?$"], // Relative imports
-				],
+				type: "natural",
+				"internal-pattern": ["#*/**", "~/**"],
+				groups: ["side-effect", "builtin", "external", "internal", ["parent", "sibling", "index"], "object", "unknown"],
 			},
 		],
+		"perfectionist/sort-named-exports": ["error", { type: "natural" }],
+		"perfectionist/sort-named-imports": ["error", { type: "natural" }],
 		// eslint-plugin-unicorn
 		"unicorn/filename-case": "off",
 		"unicorn/no-array-callback-reference": "off",
@@ -151,4 +149,4 @@ export default {
 	],
 	ignorePatterns: ["*.d.*"],
 	reportUnusedDisableDirectives: true,
-} satisfies TSESLint.Linter.Config;
+} satisfies TSESLint.Linter.ConfigType;
