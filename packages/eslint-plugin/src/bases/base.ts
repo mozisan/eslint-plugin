@@ -60,7 +60,6 @@ export default {
 	overrides: [
 		{
 			files: ["*.?(c|m)ts?(x)"],
-			excludedFiles: ["*.d.?(c|m)ts"],
 			extends: [
 				"plugin:@typescript-eslint/strict-type-checked",
 				"plugin:@typescript-eslint/stylistic-type-checked",
@@ -74,7 +73,7 @@ export default {
 			},
 			plugins: ["check-file", "functional", "import-access", "no-relative-import-paths"],
 			settings: {
-				"import/internal-regex": "^(#|~)/",
+				"import/internal-regex": "^(#[^/]+|~)/",
 			},
 			rules: {
 				// @typescript-eslint/eslint-plugin
@@ -143,13 +142,13 @@ export default {
 			},
 		},
 		{
-			files: ["*.config.?(m)ts", "vitest.*.?(m)ts"],
-			excludedFiles: ["*.d.?(c|m)ts"],
+			files: ["*.config.?(c|m)ts?(x)", "vitest.*.?(c|m)ts?(x)"],
 			rules: {
 				// eslint-plugin-import
 				"import/no-default-export": "off",
 			},
 		},
 	],
+	ignorePatterns: ["*.d.*"],
 	reportUnusedDisableDirectives: true,
 } satisfies TSESLint.Linter.Config;
